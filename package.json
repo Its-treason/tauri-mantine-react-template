@@ -1,0 +1,38 @@
+{
+  "name": "tauri-react-mantine-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "tsc && rspack build",
+    "tauri": "tauri",
+    "lint": "oxlint src"
+  },
+  "dependencies": {
+    "@mantine/core": "^9.1.0",
+    "@tanstack/react-query": "^5.100.1",
+    "@tanstack/react-virtual": "^3.13.24",
+    "zustand": "^5",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^2",
+    "@rspack/core": "^2",
+    "@rspack/dev-server": "^2",
+    "@rspack/plugin-react-refresh": "^2",
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "oxlint": "^1.62.0",
+    "postcss": "^8.5.10",
+    "postcss-loader": "^8.2.1",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "react-refresh": "^0.14",
+    "typescript": "~5.8.3"
+  }
+}
